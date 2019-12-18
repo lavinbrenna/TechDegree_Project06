@@ -1,11 +1,13 @@
 const express = require('express');
 const router = express.Router();
-const project= require('../data/data.json');
+const { projects }= require('../data/data.json');
 
 
 router.get('/index',(req,res)=>{
-    const indexTemplate = { project };
-    res.render('index',indexTemplate);
+    res.render('index',{ projects });
     
+});
+router.get('about', (req,res)=>{
+    res.render('about');
 })
 module.exports = router;

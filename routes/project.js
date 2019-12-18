@@ -1,17 +1,16 @@
 const express = require ('express');
 const router = express.Router();
-const project = require('..data/data.json').projects;
+const { projects } = require('../data/data.json');
 
-
-router.get('/:id', (req,res)=>{
+router.get('/project/:id', (req,res)=>{
 
     const { id } = req.params;
-    const { project_name } = project[id];
-    const { description } = project[id];
-    const { technologies } = project[id];
-    const { live_link } = project[id];
-    const { github_link } = project[id];
-    const { image_urls } = project[id];
+    const { project_name } = projects[id];
+    const { description } = projects[id];
+    const { technologies } = projects[id];
+    const { live_link } = projects[id];
+    const { github_link } = projects[id];
+    const { image_urls } = projects[id];
     const projectTemplate = { id, project_name, description, technologies, live_link, github_link, image_urls};
     res.render('project', projectTemplate);
   });
