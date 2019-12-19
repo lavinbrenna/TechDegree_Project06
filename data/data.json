@@ -6,7 +6,7 @@
                 "id": "0",
                 "project_name":"A Random Quote Generator",
                 "description":"Random quote generator using basic JS",
-                "technologies":"JavaScript",
+                "technologies":["JavaScript"],
                 "live_link":"https://lavinbrenna.github.io/TechDegree_Project01/",
                 "github_link":"https://github.com/lavinbrenna/TechDegree_Project01",
                 "image_urls":["images/project01_01PNG.png", "images/project01_02PNG.jpg"]
@@ -16,7 +16,7 @@
                 "id":"1",
                 "project_name":"List Pagination and Filtering",
                 "description":"Divides up long lists of information and breaks it up into smaller chunks of data to improve user experience on page ",
-                "technologies":"JavaScript",
+                "technologies":["JavaScript"],
                 "live_link":"https://lavinbrenna.github.io/TechDegree_Project02/",
                 "github_link":"https://github.com/lavinbrenna/TechDegree_Project02",
                 "image_urls":["images/project02_01PNG.png","images/project02_02PNG.jpg"]
@@ -26,7 +26,7 @@
                 "id":"2",
                 "project_name":"Interactive Form",
                 "description":"Interactive form that includes card and emaiil validation",
-                "technologies":"JavaScript, jQuery",
+                "technologies":["JavaScript", "jQuery"],
                 "live_link":"https://lavinbrenna.github.io/TechDegree_Project03/.",
                 "github_link":"https://github.com/lavinbrenna/TechDegree_Project03",
                 "image_urls":["images/project03_01PNG.png","images/project03_02PNG.jpg"]
@@ -36,7 +36,7 @@
                 "id":"3",
                 "project_name":"OOP Game Show App",
                 "description":"JS and OOP programming that creates a word guessing game with 5 lives",
-                "technologies":"JavaScript, jQuery", 
+                "technologies":["JavaScript", "jQuery"], 
                 "live_link":"https://lavinbrenna.github.io/Tech_Degree-Project-04/",
                 "github_link":"https://github.com/lavinbrenna/Tech_Degree-Project-04",
                 "image_urls":["images/project04_01PNG.png","images/project04_02PNG.jpg","images/project04_03PNG.jpg"]
@@ -46,7 +46,7 @@
                 "id":"4",
                 "project_name":"Public API Requests",
                 "description":"Employee directory created using a third party API library",
-                "technologies":"JavaScript, jQuery,API",
+                "technologies":["JavaScript", "jQuery","API"],
                 "live_link":"https://lavinbrenna.github.io/Project_05/",
                 "github_link":"https://github.com/lavinbrenna/Project_05",
                 "image_urls":["images/project05_01PNG.png","images/project05_02PNG.jpg","images/project05_03PNG.jpg"]
