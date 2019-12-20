@@ -5,7 +5,6 @@ const data = require('./data/data.json').projects;
 
 app.set('view engine', 'pug'); 
 app.use('/static', express.static('public'));
-app.use('/images',express.static('images'));
 
 const mainRoutes = require('./routes/index');
 const aboutRoutes = require('./routes/about');
