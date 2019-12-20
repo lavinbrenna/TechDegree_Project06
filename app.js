@@ -9,10 +9,12 @@ app.use('/static', express.static('public'));
 const mainRoutes = require('./routes/index');
 const aboutRoutes = require('./routes/about');
 const projectRoutes = require('./routes/project');
+const errorRoutes = require('./routes/errors');
 
 app.use(mainRoutes);
 app.use('/about', aboutRoutes);
 app.use('/project', projectRoutes);
+app.use('/errors', errorRoutes);
 
 
 app.use((err,req,res,next)=>{
